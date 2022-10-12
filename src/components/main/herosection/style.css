@@ -1,0 +1,74 @@
+.herosection {
+    background-color:  #F1F3FF;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.kiri {
+    margin: auto;
+}
+
+
+.kiri h1 {
+    text-align: left;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    margin-top: 0px;
+}
+
+.kiri p {
+    text-align: left;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;    
+}
+
+.kiri .btn {
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: #5CB85F;
+    align-items: center;
+    height: 36px;
+    border-radius: 2px;
+    justify-content: center;
+    padding: 8px 12px;
+    margin-top: 24px;
+}
+
+
+
+.kanan .heroimage img{
+    max-width: 100%;
+}
+
+@media  (max-width: 540px) {
+    .herosection {
+        padding-top: 73px;
+    }
+
+    .heroimage {
+        margin-top: 50px;
+    }
+
+    .heroimage img{
+        position: static;
+        max-width: 100%;
+    }
+
+    .heroimage {
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+    }
+
+}

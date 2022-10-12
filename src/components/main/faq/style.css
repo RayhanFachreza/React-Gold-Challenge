@@ -1,0 +1,18 @@
+.faq {
+    padding: 100px 0px;
+    padding-bottom: 100px;
+}
+
+
+.faqtext h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faqtext p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
